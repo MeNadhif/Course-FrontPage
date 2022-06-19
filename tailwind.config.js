@@ -1,8 +1,5 @@
 module.exports = {
-   content: [
-      "./src/pages/**/*.{js,ts,jsx,tsx}",
-      "./components/**/*.{js,ts,jsx,tsx}",
-   ],
+   content: ["./src/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
 
    presets: [],
    darkMode: "media", // or 'class'
@@ -358,22 +355,7 @@ module.exports = {
          DEFAULT: "1",
       },
       fontFamily: {
-         sans: [
-            "ui-sans-serif",
-            "system-ui",
-            "-apple-system",
-            "BlinkMacSystemFont",
-            '"Segoe UI"',
-            "Roboto",
-            '"Helvetica Neue"',
-            "Arial",
-            '"Noto Sans"',
-            "sans-serif",
-            '"Apple Color Emoji"',
-            '"Segoe UI Emoji"',
-            '"Segoe UI Symbol"',
-            '"Noto Color Emoji"',
-         ],
+         sans: ["Poppins"],
          serif: [
             "ui-serif",
             "Georgia",
